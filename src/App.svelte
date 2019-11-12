@@ -11,7 +11,18 @@
         },
         src: "./images/Tree.glb"
       },
+      {
+        name: "Test Location",
+        location: {
+          lat: 53.224697,
+          lng: -4.127461
+        },
+        src: "./images/Tree.glb"
+      },
+
     ];
+
+
 
     return Promise.resolve(PLACES);
   }
